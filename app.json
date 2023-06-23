@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "423c55e8-65b6-4f59-b2c4-91a55b3afff6"
+      }
+    },
+    "owner": "robosopko"
   }
 }
