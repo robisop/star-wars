@@ -1,20 +1,20 @@
-import {StatusBar} from 'expo-status-bar';
-import {StyleSheet, Text, View} from 'react-native';
+import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
+import {NavigationContainer} from '@react-navigation/native';
+
+import PeopleScreen from './components/PeopleScreen/PeopleScreen';
+import PlanetsScreen from './components/PlanetsScreen/PlanetsScreen';
+import SpaceshipsScreen from './components/SpaceshipsScreen/SpaceshipsScreen';
 
 export default function App() {
+  const Tab = createBottomTabNavigator();
+
   return (
-    <View style={styles.container}>
-      <Text>Hello, World!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <NavigationContainer>
+      <Tab.Navigator>
+        <Tab.Screen name="People" component={PeopleScreen} />
+        <Tab.Screen name="Spaceships" component={SpaceshipsScreen} />
+        <Tab.Screen name="Planets" component={PlanetsScreen} />
+      </Tab.Navigator>
+    </NavigationContainer>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
