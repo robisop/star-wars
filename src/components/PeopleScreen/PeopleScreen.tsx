@@ -1,9 +1,10 @@
+import {ListItem} from 'components/common/ListItem';
 import {StatusBar} from 'expo-status-bar';
 import {usePeople} from 'hooks/usePeople';
-import {StyleSheet, Text, View} from 'react-native';
+import {FlatList, StyleSheet, Text, View} from 'react-native';
 
 export default function PeopleScreen() {
-  const {data, isLoading, isError} = usePeople();
+  const {data, isLoading, isError, error} = usePeople();
 
   if (isLoading) {
     return (
@@ -15,6 +16,7 @@ export default function PeopleScreen() {
   }
 
   if (isError) {
+    console.error(error);
     return (
       <View style={styles.container}>
         <Text>An error has occurred</Text>
@@ -23,11 +25,20 @@ export default function PeopleScreen() {
     );
   }
 
-  console.log(data);
-
   return (
     <View style={styles.container}>
-      <Text>People!</Text>
+      <FlatList
+        data={data?.results}
+        renderItem={({item}) => (
+          <ListItem
+            item={item}
+            onPress={item => {
+              console.log(item.name);
+            }}
+          />
+        )}
+        keyExtractor={item => item.url}
+      />
       <StatusBar style="auto" />
     </View>
   );
