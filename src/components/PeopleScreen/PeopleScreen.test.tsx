@@ -3,6 +3,25 @@ import renderer, {ReactTestRendererJSON} from 'react-test-renderer';
 
 import PeopleScreen from './PeopleScreen';
 
+jest.mock('hooks/usePeople', () => ({
+  usePeople: jest.fn(() => ({
+    data: [
+      'Luke Skywalker',
+      'C-3PO',
+      'R2-D2',
+      'Darth Vader',
+      'Leia Organa',
+      'Owen Lars',
+      'Beru Whitesun lars',
+      'R5-D4',
+      'Biggs Darklighter',
+      'Obi-Wan Kenobi',
+    ],
+    isLoading: false,
+    isError: false,
+  })),
+}));
+
 describe('<PeopleScreen />', () => {
   it('has 1 child', () => {
     const tree = renderer

@@ -12,12 +12,6 @@
     "test:jest": "jest",
     "test": "npm run test:eslint && npm run test:tsc && npm run test:jest"
   },
-  "jest": {
-    "preset": "jest-expo",
-    "transformIgnorePatterns": [
-      "node_modules/(?!((jest-)?react-native|@react-native(-community)?)|expo(nent)?|@expo(nent)?/.*|@expo-google-fonts/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base|react-native-svg)"
-    ]
-  },
   "dependencies": {
     "@react-navigation/bottom-tabs": "^6.5.8",
     "@react-navigation/native": "^6.1.7",
@@ -35,6 +29,7 @@
     "react-native": "0.71.8",
     "react-native-safe-area-context": "4.5.0",
     "react-native-screens": "~3.20.0",
+    "react-query": "^3.39.3",
     "react-test-renderer": "18.2.0"
   },
   "devDependencies": {
@@ -43,6 +38,8 @@
     "@types/react": "~18.0.27",
     "@types/react-native": "^0.72.2",
     "@types/react-test-renderer": "^18.0.0",
+    "babel-plugin-module-resolver": "^5.0.0",
+    "ts-jest": "^29.1.0",
     "typescript": "^4.9.4"
   },
   "private": true
