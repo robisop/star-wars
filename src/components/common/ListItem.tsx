@@ -1,23 +1,20 @@
-import {Text, View, StyleSheet, TouchableOpacity} from 'react-native';
+import {Text, View, StyleSheet} from 'react-native';
 
 interface ListItemProps {
   title: string;
   subtitle: string;
-  onPress: () => void;
 }
 
-export const ListItem = ({title, subtitle, onPress}: ListItemProps) => {
+export const ListItem = ({title, subtitle}: ListItemProps) => {
   return (
-    <TouchableOpacity onPress={() => onPress()} accessibilityRole="button">
-      <View style={styles.item}>
-        <View style={styles.firstRow}>
-          <Text style={styles.title}>{title}</Text>
-        </View>
-        <View style={styles.secondRow}>
-          <Text>{subtitle}</Text>
-        </View>
+    <View style={styles.item}>
+      <View style={styles.firstRow}>
+        <Text style={styles.title}>{title}</Text>
       </View>
-    </TouchableOpacity>
+      <View style={styles.secondRow}>
+        <Text>{subtitle}</Text>
+      </View>
+    </View>
   );
 };
 
