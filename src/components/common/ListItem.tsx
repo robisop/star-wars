@@ -1,20 +1,20 @@
-import {SwapiPerson} from 'api/swapiPeople';
 import {Text, View, StyleSheet, TouchableOpacity} from 'react-native';
 
 interface ListItemProps {
-  item: SwapiPerson;
-  onPress: (item: SwapiPerson) => void;
+  title: string;
+  subtitle: string;
+  onPress: () => void;
 }
 
-export const ListItem = ({item, onPress}: ListItemProps) => {
+export const ListItem = ({title, subtitle, onPress}: ListItemProps) => {
   return (
-    <TouchableOpacity onPress={() => onPress(item)} accessibilityRole="button">
+    <TouchableOpacity onPress={() => onPress()} accessibilityRole="button">
       <View style={styles.item}>
         <View style={styles.firstRow}>
-          <Text style={styles.title}>{item.name}</Text>
+          <Text style={styles.title}>{title}</Text>
         </View>
         <View style={styles.secondRow}>
-          <Text>{[item.gender, item.birth_year].join(', ')}</Text>
+          <Text>{subtitle}</Text>
         </View>
       </View>
     </TouchableOpacity>

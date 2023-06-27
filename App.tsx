@@ -2,7 +2,7 @@ import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {NavigationContainer} from '@react-navigation/native';
 import PeopleScreen from 'components/PeopleScreen/PeopleScreen';
 import PlanetsScreen from 'components/PlanetsScreen/PlanetsScreen';
-import SpaceshipsScreen from 'components/SpaceshipsScreen/SpaceshipsScreen';
+import StarshipsScreen from 'components/StarshipsScreen/StarshipsScreen';
 import {QueryClient, QueryClientProvider} from 'react-query';
 
 const queryClient = new QueryClient({
@@ -17,7 +17,7 @@ export default function App() {
       <NavigationContainer>
         <Tab.Navigator>
           <Tab.Screen name="People" component={PeopleScreen} />
-          <Tab.Screen name="Spaceships" component={SpaceshipsScreen} />
+          <Tab.Screen name="Starships" component={StarshipsScreen} />
           <Tab.Screen name="Planets" component={PlanetsScreen} />
         </Tab.Navigator>
       </NavigationContainer>

@@ -31,8 +31,9 @@ export default function PeopleScreen() {
         data={data?.results}
         renderItem={({item}) => (
           <ListItem
-            item={item}
-            onPress={item => {
+            title={item.name}
+            subtitle={[item.gender, item.birth_year].join(', ')}
+            onPress={() => {
               console.log(item.name);
             }}
           />

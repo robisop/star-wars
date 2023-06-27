@@ -1,10 +1,10 @@
 import {ListItem} from 'components/common/ListItem';
 import {StatusBar} from 'expo-status-bar';
-import {usePlanets} from 'hooks/usePlanets';
+import {useStarships} from 'hooks/useStarships';
 import {FlatList, StyleSheet, Text, View} from 'react-native';
 
-export default function PlanetsScreen() {
-  const {data, isLoading, isError, error} = usePlanets();
+export default function StarshipsScreen() {
+  const {data, isLoading, isError, error} = useStarships();
 
   if (isLoading) {
     return (
@@ -32,7 +32,7 @@ export default function PlanetsScreen() {
         renderItem={({item}) => (
           <ListItem
             title={item.name}
-            subtitle={item.population}
+            subtitle={item.manufacturer}
             onPress={() => {
               console.log(item.name);
             }}
