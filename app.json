@@ -31,6 +31,12 @@
         "projectId": "423c55e8-65b6-4f59-b2c4-91a55b3afff6"
       }
     },
-    "owner": "robosopko"
+    "owner": "robosopko",
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/423c55e8-65b6-4f59-b2c4-91a55b3afff6"
+    }
   }
 }
