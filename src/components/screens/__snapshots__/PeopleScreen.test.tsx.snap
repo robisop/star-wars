@@ -1,0 +1,215 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PeopleScreen /> renders correctly 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#fff",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <RCTScrollView
+    ListEmptyComponent={[Function]}
+    ListFooterComponent={[Function]}
+    data={
+      [
+        {
+          "id": "https://swapi.dev/api/people/1/",
+          "subtitle": "gender: male | height: 172 | hair: blond | eyes: blue",
+          "title": "Luke Skywalker",
+        },
+        {
+          "id": "https://swapi.dev/api/people/2/",
+          "subtitle": "gender: n/a | height: 167 | hair: n/a | eyes: yellow",
+          "title": "C-3PO",
+        },
+        {
+          "id": "https://swapi.dev/api/people/3/",
+          "subtitle": "gender: n/a | height: 96 | hair: n/a | eyes: red",
+          "title": "R2-D2",
+        },
+      ]
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onEndReached={[Function]}
+    onEndReachedThreshold={0.5}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={[]}
+    viewabilityConfigCallbackPairs={[]}
+  >
+    <View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "marginBottom": 10,
+              "minWidth": "100%",
+              "paddingBottom": 10,
+              "paddingLeft": 30,
+              "paddingRight": 10,
+              "paddingTop": 20,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "marginBottom": 5,
+                "marginTop": 5,
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Luke Skywalker
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "marginBottom": 10,
+              }
+            }
+          >
+            <Text>
+              gender: male | height: 172 | hair: blond | eyes: blue
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "marginBottom": 10,
+              "minWidth": "100%",
+              "paddingBottom": 10,
+              "paddingLeft": 30,
+              "paddingRight": 10,
+              "paddingTop": 20,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "marginBottom": 5,
+                "marginTop": 5,
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              C-3PO
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "marginBottom": 10,
+              }
+            }
+          >
+            <Text>
+              gender: n/a | height: 167 | hair: n/a | eyes: yellow
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "marginBottom": 10,
+              "minWidth": "100%",
+              "paddingBottom": 10,
+              "paddingLeft": 30,
+              "paddingRight": 10,
+              "paddingTop": 20,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "marginBottom": 5,
+                "marginTop": 5,
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              R2-D2
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "marginBottom": 10,
+              }
+            }
+          >
+            <Text>
+              gender: n/a | height: 96 | hair: n/a | eyes: red
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        />
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

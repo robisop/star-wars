@@ -1,5 +1,5 @@
 import {SwapiListResponse} from 'api/common';
-import {SwapiPeople} from 'api/swapiPeople';
+import {SwapiPeople, parseSwapiPeople} from 'api/swapiPeople';
 import {useInfiniteQuery} from 'react-query';
 
 const fetchPeople = async ({
@@ -7,16 +7,7 @@ const fetchPeople = async ({
 }) => {
   const response = await fetch(pageParam);
   return response.json().then((data: SwapiPeople): SwapiListResponse => {
-    return {
-      count: data.count,
-      next: data.next,
-      previous: data.previous,
-      results: data.results.map(person => ({
-        id: person.url,
-        title: person.name,
-        subtitle: `gender: ${person.gender} | height: ${person.height} | hair: ${person.hair_color} | eyes: ${person.eye_color}`,
-      })),
-    };
+    return parseSwapiPeople(data);
   });
 };
 

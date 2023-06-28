@@ -1,9 +1,9 @@
 import {Ionicons} from '@expo/vector-icons';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {NavigationContainer} from '@react-navigation/native';
-import PeopleScreen from 'components/PeopleScreen/PeopleScreen';
-import PlanetsScreen from 'components/PlanetsScreen/PlanetsScreen';
-import StarshipsScreen from 'components/StarshipsScreen/StarshipsScreen';
+import PeopleScreen from 'components/screens/PeopleScreen';
+import PlanetsScreen from 'components/screens/PlanetsScreen';
+import StarshipsScreen from 'components/screens/StarshipsScreen';
 
 export const AppNavigation = () => {
   const Tab = createBottomTabNavigator();

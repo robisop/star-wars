@@ -1,0 +1,268 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StarshipsScreen /> renders correctly 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#fff",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <RCTScrollView
+    ListEmptyComponent={[Function]}
+    ListFooterComponent={[Function]}
+    data={
+      [
+        {
+          "id": "https://swapi.dev/api/starships/3/",
+          "subtitle": "model: Imperial I-class Star Destroyer | manufacturer: Kuat Drive Yards | cost: 150,000,000 credits | length: 1,600 | max speed: 975 | crew 47,060 | passengers: n/a | cargo capacity: 36,000,000 | hyperdrive rating: 2.0 | starship class: Star Destroyer",
+          "title": "Star Destroyer",
+        },
+        {
+          "id": "https://swapi.dev/api/starships/5/",
+          "subtitle": "model: Sentinel-class landing craft | manufacturer: Sienar Fleet Systems, Cyngus Spaceworks | cost: 240,000 credits | length: 38 | max speed: 1,000 | crew 5 | passengers: 75 | cargo capacity: 180,000 | hyperdrive rating: 1.0 | starship class: landing craft",
+          "title": "Sentinel-class landing craft",
+        },
+        {
+          "id": "https://swapi.dev/api/starships/9/",
+          "subtitle": "model: DS-1 Orbital Battle Station | manufacturer: Imperial Department of Military Research, Sienar Fleet Systems | cost: 1,000,000,000,000 credits | length: 120,000 | max speed: n/a | crew 342,953 | passengers: 843,342 | cargo capacity: 1,000,000,000,000 | hyperdrive rating: 4.0 | starship class: Deep Space Mobile Battlestation",
+          "title": "Death Star",
+        },
+        {
+          "id": "https://swapi.dev/api/starships/10/",
+          "subtitle": "model: YT-1300 light freighter | manufacturer: Corellian Engineering Corporation | cost: 100,000 credits | length: 34.37 | max speed: 1,050 | crew 4 | passengers: 6 | cargo capacity: 100,000 | hyperdrive rating: 0.5 | starship class: Light freighter",
+          "title": "Millennium Falcon",
+        },
+      ]
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onEndReached={[Function]}
+    onEndReachedThreshold={0.5}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={[]}
+    viewabilityConfigCallbackPairs={[]}
+  >
+    <View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "marginBottom": 10,
+              "minWidth": "100%",
+              "paddingBottom": 10,
+              "paddingLeft": 30,
+              "paddingRight": 10,
+              "paddingTop": 20,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "marginBottom": 5,
+                "marginTop": 5,
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Star Destroyer
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "marginBottom": 10,
+              }
+            }
+          >
+            <Text>
+              model: Imperial I-class Star Destroyer | manufacturer: Kuat Drive Yards | cost: 150,000,000 credits | length: 1,600 | max speed: 975 | crew 47,060 | passengers: n/a | cargo capacity: 36,000,000 | hyperdrive rating: 2.0 | starship class: Star Destroyer
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "marginBottom": 10,
+              "minWidth": "100%",
+              "paddingBottom": 10,
+              "paddingLeft": 30,
+              "paddingRight": 10,
+              "paddingTop": 20,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "marginBottom": 5,
+                "marginTop": 5,
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Sentinel-class landing craft
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "marginBottom": 10,
+              }
+            }
+          >
+            <Text>
+              model: Sentinel-class landing craft | manufacturer: Sienar Fleet Systems, Cyngus Spaceworks | cost: 240,000 credits | length: 38 | max speed: 1,000 | crew 5 | passengers: 75 | cargo capacity: 180,000 | hyperdrive rating: 1.0 | starship class: landing craft
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "marginBottom": 10,
+              "minWidth": "100%",
+              "paddingBottom": 10,
+              "paddingLeft": 30,
+              "paddingRight": 10,
+              "paddingTop": 20,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "marginBottom": 5,
+                "marginTop": 5,
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Death Star
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "marginBottom": 10,
+              }
+            }
+          >
+            <Text>
+              model: DS-1 Orbital Battle Station | manufacturer: Imperial Department of Military Research, Sienar Fleet Systems | cost: 1,000,000,000,000 credits | length: 120,000 | max speed: n/a | crew 342,953 | passengers: 843,342 | cargo capacity: 1,000,000,000,000 | hyperdrive rating: 4.0 | starship class: Deep Space Mobile Battlestation
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "marginBottom": 10,
+              "minWidth": "100%",
+              "paddingBottom": 10,
+              "paddingLeft": 30,
+              "paddingRight": 10,
+              "paddingTop": 20,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "marginBottom": 5,
+                "marginTop": 5,
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Millennium Falcon
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "marginBottom": 10,
+              }
+            }
+          >
+            <Text>
+              model: YT-1300 light freighter | manufacturer: Corellian Engineering Corporation | cost: 100,000 credits | length: 34.37 | max speed: 1,050 | crew 4 | passengers: 6 | cargo capacity: 100,000 | hyperdrive rating: 0.5 | starship class: Light freighter
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        />
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

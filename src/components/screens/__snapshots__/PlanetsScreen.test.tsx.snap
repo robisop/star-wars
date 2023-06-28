@@ -1,0 +1,215 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PlanetsScreen /> renders correctly 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#fff",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <RCTScrollView
+    ListEmptyComponent={[Function]}
+    ListFooterComponent={[Function]}
+    data={
+      [
+        {
+          "id": "https://swapi.dev/api/planets/1/",
+          "subtitle": "population: 200,000 | climate: arid | terrain: desert | diameter: 10,465 | gravity: 1 standard",
+          "title": "Tatooine",
+        },
+        {
+          "id": "https://swapi.dev/api/planets/2/",
+          "subtitle": "population: 2,000,000,000 | climate: temperate | terrain: grasslands, mountains | diameter: 12,500 | gravity: 1 standard",
+          "title": "Alderaan",
+        },
+        {
+          "id": "https://swapi.dev/api/planets/3/",
+          "subtitle": "population: 1,000 | climate: temperate, tropical | terrain: jungle, rainforests | diameter: 10,200 | gravity: 1 standard",
+          "title": "Yavin IV",
+        },
+      ]
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onEndReached={[Function]}
+    onEndReachedThreshold={0.5}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={[]}
+    viewabilityConfigCallbackPairs={[]}
+  >
+    <View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "marginBottom": 10,
+              "minWidth": "100%",
+              "paddingBottom": 10,
+              "paddingLeft": 30,
+              "paddingRight": 10,
+              "paddingTop": 20,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "marginBottom": 5,
+                "marginTop": 5,
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Tatooine
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "marginBottom": 10,
+              }
+            }
+          >
+            <Text>
+              population: 200,000 | climate: arid | terrain: desert | diameter: 10,465 | gravity: 1 standard
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "marginBottom": 10,
+              "minWidth": "100%",
+              "paddingBottom": 10,
+              "paddingLeft": 30,
+              "paddingRight": 10,
+              "paddingTop": 20,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "marginBottom": 5,
+                "marginTop": 5,
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Alderaan
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "marginBottom": 10,
+              }
+            }
+          >
+            <Text>
+              population: 2,000,000,000 | climate: temperate | terrain: grasslands, mountains | diameter: 12,500 | gravity: 1 standard
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "marginBottom": 10,
+              "minWidth": "100%",
+              "paddingBottom": 10,
+              "paddingLeft": 30,
+              "paddingRight": 10,
+              "paddingTop": 20,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "marginBottom": 5,
+                "marginTop": 5,
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Yavin IV
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "marginBottom": 10,
+              }
+            }
+          >
+            <Text>
+              population: 1,000 | climate: temperate, tropical | terrain: jungle, rainforests | diameter: 10,200 | gravity: 1 standard
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        />
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
