@@ -22,11 +22,6 @@ exports[`<StarshipsScreen /> renders correctly 1`] = `
           "title": "Star Destroyer",
         },
         {
-          "id": "https://swapi.dev/api/starships/5/",
-          "subtitle": "model: Sentinel-class landing craft | manufacturer: Sienar Fleet Systems, Cyngus Spaceworks | cost: 240,000 credits | length: 38 | max speed: 1,000 | crew 5 | passengers: 75 | cargo capacity: 180,000 | hyperdrive rating: 1.0 | starship class: landing craft",
-          "title": "Sentinel-class landing craft",
-        },
-        {
           "id": "https://swapi.dev/api/starships/9/",
           "subtitle": "model: DS-1 Orbital Battle Station | manufacturer: Imperial Department of Military Research, Sienar Fleet Systems | cost: 1,000,000,000,000 credits | length: 120,000 | max speed: n/a | crew 342,953 | passengers: 843,342 | cargo capacity: 1,000,000,000,000 | hyperdrive rating: 4.0 | starship class: Deep Space Mobile Battlestation",
           "title": "Death Star",
@@ -54,6 +49,7 @@ exports[`<StarshipsScreen /> renders correctly 1`] = `
     renderItem={[Function]}
     scrollEventThrottle={50}
     stickyHeaderIndices={[]}
+    testID="flatList"
     viewabilityConfigCallbackPairs={[]}
   >
     <View>
@@ -101,54 +97,6 @@ exports[`<StarshipsScreen /> renders correctly 1`] = `
           >
             <Text>
               model: Imperial I-class Star Destroyer | manufacturer: Kuat Drive Yards | cost: 150,000,000 credits | length: 1,600 | max speed: 975 | crew 47,060 | passengers: n/a | cargo capacity: 36,000,000 | hyperdrive rating: 2.0 | starship class: Star Destroyer
-            </Text>
-          </View>
-        </View>
-      </View>
-      <View
-        onFocusCapture={[Function]}
-        onLayout={[Function]}
-        style={null}
-      >
-        <View
-          style={
-            {
-              "marginBottom": 10,
-              "minWidth": "100%",
-              "paddingBottom": 10,
-              "paddingLeft": 30,
-              "paddingRight": 10,
-              "paddingTop": 20,
-            }
-          }
-        >
-          <View
-            style={
-              {
-                "marginBottom": 5,
-                "marginTop": 5,
-              }
-            }
-          >
-            <Text
-              style={
-                {
-                  "fontWeight": "bold",
-                }
-              }
-            >
-              Sentinel-class landing craft
-            </Text>
-          </View>
-          <View
-            style={
-              {
-                "marginBottom": 10,
-              }
-            }
-          >
-            <Text>
-              model: Sentinel-class landing craft | manufacturer: Sienar Fleet Systems, Cyngus Spaceworks | cost: 240,000 credits | length: 38 | max speed: 1,000 | crew 5 | passengers: 75 | cargo capacity: 180,000 | hyperdrive rating: 1.0 | starship class: landing craft
             </Text>
           </View>
         </View>

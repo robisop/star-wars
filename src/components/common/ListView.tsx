@@ -46,7 +46,9 @@ export const ListView = ({
 
   const renderFooter = () => (
     <View style={styles.listFooter}>
-      {hasNextPage && isFetchingNextPage && <ActivityIndicator />}
+      {hasNextPage && isFetchingNextPage && (
+        <ActivityIndicator testID="activityIndicator" />
+      )}
     </View>
   );
 
@@ -59,6 +61,7 @@ export const ListView = ({
   return (
     <View style={styles.container}>
       <FlatList
+        testID="flatList"
         data={data}
         renderItem={({item}) => (
           <ListItem title={item.title} subtitle={item.subtitle} />

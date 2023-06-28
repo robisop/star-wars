@@ -49,6 +49,7 @@ exports[`<PeopleScreen /> renders correctly 1`] = `
     renderItem={[Function]}
     scrollEventThrottle={50}
     stickyHeaderIndices={[]}
+    testID="flatList"
     viewabilityConfigCallbackPairs={[]}
   >
     <View>

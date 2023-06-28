@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<PlanetsScreen /> renders correctly 1`] = `
+exports[`<ListView /> renders data correctly 1`] = `
 <View
   style={
     {
@@ -17,19 +17,14 @@ exports[`<PlanetsScreen /> renders correctly 1`] = `
     data={
       [
         {
-          "id": "https://swapi.dev/api/planets/1/",
-          "subtitle": "population: 200,000 | climate: arid | terrain: desert | diameter: 10,465 | gravity: 1 standard",
-          "title": "Tatooine",
+          "id": "1",
+          "subtitle": "test subtitle",
+          "title": "test title",
         },
         {
-          "id": "https://swapi.dev/api/planets/2/",
-          "subtitle": "population: 2,000,000,000 | climate: temperate | terrain: grasslands, mountains | diameter: 12,500 | gravity: 1 standard",
-          "title": "Alderaan",
-        },
-        {
-          "id": "https://swapi.dev/api/planets/3/",
-          "subtitle": "population: 1,000 | climate: temperate, tropical | terrain: jungle, rainforests | diameter: 10,200 | gravity: 1 standard",
-          "title": "Yavin IV",
+          "id": "2",
+          "subtitle": "test subtitle 2",
+          "title": "test title 2",
         },
       ]
     }
@@ -85,7 +80,7 @@ exports[`<PlanetsScreen /> renders correctly 1`] = `
                 }
               }
             >
-              Tatooine
+              test title
             </Text>
           </View>
           <View
@@ -96,7 +91,7 @@ exports[`<PlanetsScreen /> renders correctly 1`] = `
             }
           >
             <Text>
-              population: 200,000 | climate: arid | terrain: desert | diameter: 10,465 | gravity: 1 standard
+              test subtitle
             </Text>
           </View>
         </View>
@@ -133,7 +128,7 @@ exports[`<PlanetsScreen /> renders correctly 1`] = `
                 }
               }
             >
-              Alderaan
+              test title 2
             </Text>
           </View>
           <View
@@ -144,55 +139,7 @@ exports[`<PlanetsScreen /> renders correctly 1`] = `
             }
           >
             <Text>
-              population: 2,000,000,000 | climate: temperate | terrain: grasslands, mountains | diameter: 12,500 | gravity: 1 standard
-            </Text>
-          </View>
-        </View>
-      </View>
-      <View
-        onFocusCapture={[Function]}
-        onLayout={[Function]}
-        style={null}
-      >
-        <View
-          style={
-            {
-              "marginBottom": 10,
-              "minWidth": "100%",
-              "paddingBottom": 10,
-              "paddingLeft": 30,
-              "paddingRight": 10,
-              "paddingTop": 20,
-            }
-          }
-        >
-          <View
-            style={
-              {
-                "marginBottom": 5,
-                "marginTop": 5,
-              }
-            }
-          >
-            <Text
-              style={
-                {
-                  "fontWeight": "bold",
-                }
-              }
-            >
-              Yavin IV
-            </Text>
-          </View>
-          <View
-            style={
-              {
-                "marginBottom": 10,
-              }
-            }
-          >
-            <Text>
-              population: 1,000 | climate: temperate, tropical | terrain: jungle, rainforests | diameter: 10,200 | gravity: 1 standard
+              test subtitle 2
             </Text>
           </View>
         </View>
