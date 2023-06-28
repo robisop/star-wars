@@ -14,7 +14,7 @@ const fetchPeople = async ({
       results: data.results.map(person => ({
         id: person.url,
         title: person.name,
-        subtitle: [person.gender, person.birth_year].join(', '),
+        subtitle: `gender: ${person.gender} | height: ${person.height} | hair: ${person.hair_color} | eyes: ${person.eye_color}`,
       })),
     };
   });

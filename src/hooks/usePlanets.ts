@@ -1,5 +1,6 @@
 import {SwapiListResponse} from 'api/common';
 import {SwapiPlanets} from 'api/swapiPlanets';
+import {formatNumberString} from 'helpers/formatters';
 import {useInfiniteQuery} from 'react-query';
 
 const fetchPlanets = async ({
@@ -14,7 +15,13 @@ const fetchPlanets = async ({
       results: data.results.map(planet => ({
         id: planet.url,
         title: planet.name,
-        subtitle: planet.population,
+        subtitle: `population: ${formatNumberString(
+          planet.population,
+        )} | climate: ${planet.climate} | terrain: ${
+          planet.terrain
+        } | diameter: ${formatNumberString(planet.diameter)} | gravity: ${
+          planet.gravity
+        }`,
       })),
     };
   });
