@@ -15,6 +15,7 @@ export const AppNavigation = () => {
           name="People"
           component={PeopleScreen}
           options={{
+            tabBarTestID: 'PeopleTab',
             tabBarIcon: ({focused}) => (
               <Ionicons
                 name={focused ? 'person' : 'person-outline'}
@@ -27,6 +28,7 @@ export const AppNavigation = () => {
           name="Starships"
           component={StarshipsScreen}
           options={{
+            tabBarTestID: 'StarshipsTab',
             tabBarIcon: ({focused}) => (
               <Ionicons
                 name={focused ? 'rocket' : 'rocket-outline'}
@@ -39,6 +41,7 @@ export const AppNavigation = () => {
           name="Planets"
           component={PlanetsScreen}
           options={{
+            tabBarTestID: 'PlanetsTab',
             tabBarIcon: ({focused}) => (
               <Ionicons
                 name={focused ? 'planet' : 'planet-outline'}
